@@ -21,7 +21,7 @@
    <bottom>
       <Pane prefHeight="43.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="sendBtn" onAction="#onclickSendMsg" layoutX="486.0" layoutY="10.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="103.0" text="Button" />
+            <Button fx:id="sendBtn" onAction="#onclickSendMsg" layoutX="486.0" layoutY="10.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="103.0" text="SEND" />
             <TextField onKeyPressed="#onKeyPressHandle" fx:id="textField" layoutX="13.0" layoutY="9.0" prefHeight="25.0" prefWidth="458.0" />
          </children>
       </Pane>
