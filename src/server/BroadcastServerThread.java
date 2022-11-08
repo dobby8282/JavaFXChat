@@ -45,8 +45,10 @@ public class BroadcastServerThread implements Runnable{
 				if(msg != null){
 					String[] temp = msg.split("#");
 					if(temp[0].equals("0")){
+						// 처음접속자 id 전송
 						broadcast(msg);
 						id = temp[1];
+						// 채팅접속자리스트 추가
 						broadcastList("3");
 					}else if(temp[0].equals("1")){
 						//일반 메세지
